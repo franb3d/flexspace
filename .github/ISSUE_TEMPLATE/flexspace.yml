@@ -1,0 +1,15 @@
+name: FlexSpace bug
+description: Something in FlexSpace doesn't work as expected
+labels: ["bug", "FlexSpace"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Reporting from Blender? Use **View > Report a Bug...** in the canvas header (or **Report a Bug** in the add-on preferences). It fills this in for you.
+  - type: textarea
+    id: report
+    attributes:
+      label: Report
+      description: What happened, the steps to make it happen again, what you expected, your Blender and FlexSpace versions, your system and GPU, and any error from the system console.
+    validations:
+      required: true
