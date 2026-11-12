@@ -1,16 +1,14 @@
-# FlexSpace
+# FlexSpace and Armature Picker
 
-FlexSpace is a Blender add-on for building your own control canvases and armature pickers. You place buttons, toggles, sliders, images and bone pickers on a canvas, bind them to Blender properties and operators, and use them while you work.
+This repository is the bug tracker of two Blender add-ons made from the same base:
 
-It comes with two canvases:
+- **FlexSpace**: custom control canvases for any Blender workflow. Place buttons, toggles, sliders, labels and images on a canvas, bind them to properties, operators and scripts, and use them while you work.
+- **Armature Picker**: animator-friendly pickers for any rig, with bone buttons and custom shapes, 2D pads and knobs for facial controls, IK/FK switches, and left/right mirroring while you lay it out.
 
-- **FlexSpace canvas**: control panels for any scene, object or tool setting.
-- **Armature Picker**: a picker for your rigs, with bone buttons and custom shapes, 2D pads and knobs for facial controls, IK/FK switches, and left/right mirroring while you lay it out.
-
-Requires Blender 5.3 or newer.
+Both require Blender 5.3 or newer, and both can be installed at the same time.
 
 ## Reporting a bug
 
-This repository is FlexSpace's bug tracker. If you bought FlexSpace on Superhive, you can also report problems there.
+In Blender, open **View > Report a Bug...** in the canvas header (or **Report a Bug** in the add-on preferences). It opens a new issue here with your versions, system and recent errors already filled in.
 
-Open an [issue](../../issues/new/choose) and include your Blender version, your FlexSpace version, the steps to reproduce it, and any error from the system console.
+You can also open an [issue](../../issues/new/choose) by hand: pick the template of your add-on. If you bought it on Superhive, you can report problems there too.
